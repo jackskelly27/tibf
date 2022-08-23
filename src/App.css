@@ -1,3 +1,7 @@
+body {
+  background: #bf5700;
+  font-family: 'Bree Serif', serif;
+}
 .App {
   text-align: center;
 }
@@ -35,4 +39,34 @@
   to {
     transform: rotate(360deg);
   }
+}
+
+button {
+  display: inline-flex;
+  background: #f8971f;
+  height: 40px;
+  width: 150px;
+  background: fff;
+  border: 2px solid #9cadb7;
+  margin: 20px 20px 20px 20px;
+  color: #fff;
+  text-transform: uppercase;
+  text-decoration: none;
+  font-size: .8em;
+  font-family: 'Bree Serif', serif;
+  letter-spacing: 1.5px;
+  align-items: center;
+  justify-content: center;
+  overflow: hidden;
+  transition: all .35s ease-Out;
+  cursor: pointer;
+  font-weight: bold;
+}
+
+button:hover {
+  opacity: 0.8;
+}
+
+h1 {
+  color: #fff;
 }
