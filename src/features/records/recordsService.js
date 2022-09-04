@@ -7,11 +7,12 @@ const getRecords = async () => {
 
   const response = await axios.get(`${config.api.url}/records`);
 
+  console.log("response.data is equal to",response.data);
   return response.data;
 }
 
 const recordsService = {
-  getRecords,
+  getRecords
 }
 
 export default recordsService;

@@ -24,11 +24,11 @@ export default function Records() {
 
   }, [isError, message, dispatch]);
 
-  console.log('these are the records', records);
-
   if (isLoading) {
     return (<><h5>Loading...</h5></>);
   }
+
+  console.log('these are the records', records);
 
   return(   
     <section className="container">
@@ -44,10 +44,11 @@ export default function Records() {
               </tr>
             </thead>
             <tbody>
-              {records.map((record) => (
-                  <RecordItem key={record.year} record={record} />
+               {records.map((record) => (
+                 <RecordItem key={record.year} record={record} />
                 ))
               }
+            
             </tbody>
 
           </table>
