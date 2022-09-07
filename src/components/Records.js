@@ -40,7 +40,7 @@ export default function Records() {
                 <th>Year</th>
                 <th>Wins</th>
                 <th>Losses</th>
-                <th>Ties</th>
+                <th>Conference</th>
               </tr>
             </thead>
             <tbody>
