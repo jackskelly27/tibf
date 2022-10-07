@@ -1,9 +1,12 @@
 import './App.css';
 import AudioButton from './components/AudioButton';
 import Records from './components/Records';
+import ScrollToTop from 'react-scroll-to-top';
 
 function App() {
   return (
+    <>
+    <ScrollToTop smooth color="#bf5700"/>
     <div className="App">
       <h1>Texas Is Back Folks!</h1>
       <img src="/logo.png" alt="longhorn logo" class="logo" />
@@ -14,6 +17,7 @@ function App() {
       <AudioButton name={'Musberger_OU_UT_05_SweedTD.mp3'} />
       <Records />
     </div>
+    </>
   );
 }
 
