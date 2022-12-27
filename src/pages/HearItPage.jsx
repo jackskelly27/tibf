@@ -5,6 +5,7 @@ import AudioButton from "../components/AudioButton";
 function HearItPage() {
     return (
         <>
+            <h1 className="title">Hear It</h1>
             <AudioButton name={'tibf_original_Tessitore.mp3'} />
             <h1>Any Doubts?</h1>
             <AudioButton name={'Brandon_Walker_tsb.mp3'} />
