@@ -71,10 +71,6 @@ h1 {
   color: #fff;
 }
 
-.logo {
-  width: 300px;
-}
-
 .container {
   display: inline-block;
   align-items: center;
@@ -104,4 +100,23 @@ h1 {
 .content-table td {
   color:white;
   padding: 0.4rem 0.6rem;
+}
+
+.header {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  padding-top: 20px;
+}
+
+.header a {
+  text-decoration: none;
+}
+
+.header h1:hover, .header img:hover {
+  opacity: 0.8;
+}
+
+.logo {
+  width: 200px;
 }
