@@ -2,6 +2,7 @@ import { useSelector, useDispatch } from 'react-redux'
 import { useEffect } from "react";
 import { getRecords, reset } from '../features/records/recordsSlice'
 import RecordItem from "./RecordItem";
+import LoadingIcons from 'react-loading-icons'
 
 export default function Records() {
   const dispatch = useDispatch();
@@ -53,7 +54,8 @@ export default function Records() {
 
           </table>
             ) : (
-          <h3>No records found.</h3>
+            <LoadingIcons.Bars />
+          // <h3 className="loading">No records found.</h3>
         )}
     </section>
   )

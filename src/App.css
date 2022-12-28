@@ -134,6 +134,10 @@ h1 {
   margin-bottom: 60px;
 }
 
+.loading {
+  color:white;
+}
+
 .logo {
   width: 200px;
 }
