@@ -5,6 +5,7 @@ import Header from './components/Header'
 import {BrowserRouter as Router, Routes, Route} from 'react-router-dom'
 import HearItPage from './pages/HearItPage';
 import SeeItPage from './pages/SeeItPage';
+import Footer from './components/Footer';
 
 function App() {
   return (
@@ -19,6 +20,7 @@ function App() {
             <Route path='/hearit' element={<HearItPage />} />
             <Route path='/seeit' element={<SeeItPage />} />
           </Routes>
+          <Footer />
         </div>
       </body>
     </Router>
