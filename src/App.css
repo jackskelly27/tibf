@@ -127,7 +127,7 @@ h1 {
   color: white;
 }
 
-.header h1:hover, .header img:hover {
+.header .navlink:hover, .header img:hover {
   opacity: 0.8;
 }
 
@@ -146,6 +146,11 @@ h1 {
 
 .logo {
   width: 200px;
+}
+
+.navlink {
+  font-size: 2em;
+  font-weight: bold;
 }
 
 .title {
