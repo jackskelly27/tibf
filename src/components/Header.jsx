@@ -17,7 +17,7 @@ function Header() {
         <a href="/seeit" trel="noopener norefferer">
           <h1>
             <NavLink to="/seeit" className={({ isActive }) => (isActive ? 'active' : undefined)}>
-              Seet It
+              See It
             </NavLink>
           </h1>
         </a>
