@@ -3,7 +3,7 @@ import React from "react";
 function HomePage() {
     return (
         <>
-            <h1 className="title">Texas Is Back Folks! Samnuel is also back!</h1>
+            <h1 className="title">Texas Is Back Folks!</h1>
                 <div>
                     <p className="intro">
                         &emsp; The Texas Longhorns football program is the intercollegiate team representing the University of Texas at Austin in the sport of American football. The Longhorns compete in the NCAA Division I Football Bowl Subdivision (formerly Division I-A) as a member of the Big 12 Conference. Their home games are played at Darrell K Royal-Texas Memorial Stadium in Austin, Texas.
